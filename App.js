@@ -13,7 +13,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-      <Stack.Screen  false name='Home' component={Home} />
+      <Stack.Screen   name='Home' component={Home} />
         <Stack.Screen name='Detail' component={Detail}/>
         
       </Stack.Navigator>
